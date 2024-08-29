@@ -10,13 +10,13 @@ public class BeerSong {
         while (beerNum > 0){
 
 
-
-
             System.out.println(beerNum + " " + word + " of beer on the wall");
             System.out.println(beerNum + " " + word + " of beer");
             System.out.println("Take one down.");
             System.out.println("pass it around.");
             beerNum = beerNum - 1 ;
+
+
             if (beerNum == 1){
                 word = "bottle";
 //                  The if (beerNum == 1) must come after the beerNum = beerNum - 1 or else
